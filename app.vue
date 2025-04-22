@@ -2,9 +2,9 @@
 import gsap from "gsap";
 import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 
-gsap.registerPlugin(MorphSVGPlugin);
-
 onMounted(() => {
+  gsap.registerPlugin(MorphSVGPlugin);
+  
   console.log(gsap.version);
   console.log(MorphSVGPlugin);
 
