@@ -1,13 +1,7 @@
 <script setup>
-import gsap from "gsap";
-import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
+const { $gsap: gsap, $MorphSVGPlugin } = useNuxtApp();
 
 onMounted(() => {
-  gsap.registerPlugin(MorphSVGPlugin);
-  
-  console.log(gsap.version);
-  console.log(MorphSVGPlugin);
-
   gsap.to("#tag", {
     duration: 1,
     ease: "power1.inOut",

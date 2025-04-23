@@ -530,6 +530,13 @@
   resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-3.1.1.tgz#af3aea7f1e52ec916d8b5c9dcc0f09d4c060a3fc"
   integrity sha512-5DGmA8FTdB2XbDeEwc/5ZXBl6UbBAyBOOLlPuBnZ/N1SwdH9Ii+cOX3tBROlDgcTXxjOYnLMVoKk9+FXAw0CJw==
 
+"@hypernym/nuxt-gsap@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@hypernym/nuxt-gsap/-/nuxt-gsap-2.4.3.tgz#23aea281fd6e5f389ed741aec45d22f83526a893"
+  integrity sha512-l3m7Z6NHWqPtz5Q7o18WKW1vOu0XVHtNZurRdE+Es5zKWdIUoHd6L5mNz440drE0bzCN7jIDicRlE5fcj30rpQ==
+  dependencies:
+    gsap "^3.12.5"
+
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@ioredis/commands/-/commands-1.2.0.tgz#6d61b3097470af1fdbbe622795b8921d42018e11"
@@ -3225,7 +3232,7 @@ graceful-fs@^4.2.0, graceful-fs@^4.2.10, graceful-fs@^4.2.4, graceful-fs@^4.2.9:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-"gsap@npm:@gsap/shockingly":
+gsap@^3.12.5, "gsap@npm:@gsap/shockingly":
   version "3.12.7"
   resolved "https://npm.greensock.com/@gsap%2fshockingly/-/shockingly-3.12.7.tgz#88241ca4ba865f7798c22abd7988a3346717d6c7"
   integrity sha512-uvbaCkQCdjy7bNvzBWE21dVFa32uqBzCZfYgNRikcFn2SqyQ0/fDUJkfAtme9tdkv3n+niBpdGraLjVA26tTWQ==
